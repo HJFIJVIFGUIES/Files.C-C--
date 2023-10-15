@@ -1,6 +1,7 @@
 {
   "C_Cpp.errorSquiggles": "disabled",
   "files.associations": {
-    "p_3.C": "cpp"
+    "p_3.C": "cpp",
+    "P_7.C": "cpp"
   }
 }
