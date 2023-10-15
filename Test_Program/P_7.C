@@ -1,7 +1,10 @@
+// Switch case control statement method.
 #include <stdio.h>
 int main()
 {
-    int a = 3;
+    int a;
+    printf("Enter the value: ");
+    scanf("%d", &a);
     switch (a)
     {
     case 2:
@@ -13,6 +16,9 @@ int main()
         break;
 
     default:
+        printf("Nothing matched");
         break;
     }
+
+    return 0;
 }
