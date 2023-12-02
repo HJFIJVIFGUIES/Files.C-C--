@@ -40,5 +40,14 @@ int main() {
 
 #include<stdio.h>
 int main() {
-    
+    int currentYear;
+    int age;
+
+    printf("Enter the current year: ");
+    scanf("%d", &currentYear);
+    printf("Enter the age: ");
+    scanf("%d", &age);
+
+    printf("You were born in the year %d \n", currentYear - age);
+    return 0;
 }
